@@ -1,0 +1,4 @@
+s=input()
+s2=sorted(s)
+s2 = list(dict.fromkeys(s2))
+print(len(s2))
